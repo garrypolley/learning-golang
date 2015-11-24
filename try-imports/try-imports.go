@@ -2,7 +2,15 @@ package main
 
 import (
 	"fmt"
-	"learning_go/try-imports/constants" // This must be on your go path to compile
+	// This must be on your go path to compile
+	// for me that meant having a go path of
+	// GOPATH=/Users/garrypolley/gohome:/Users/garrypolley/
+	// This allows me to play around with my local stuff
+	// since I have a /Users/garrypolley/src folder
+	// but this does not break any of my existing golang
+	// work or projects since it looks in my
+	// /Users/garrypolley/src last
+	"learning_go/try-imports/constants"
 )
 
 func printLoop(options []string) {
